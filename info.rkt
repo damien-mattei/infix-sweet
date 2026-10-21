@@ -8,7 +8,7 @@
 (define version "1.0")
 (define pkg-authors '(mattei))
 (define scribblings '(("scribblings/infix-sweet.scrbl" () (parsing-library))))
-(define build-deps '("scribble-lib" "racket-doc" "scribble-doc"))
+(define build-deps '("scribble-lib" "racket-doc" "scribble-doc" "Scheme-PLUS-for-Racket" "SRFI-105-for-Racket"))
 (define license 'LGPL-3.0-or-later)
 
 (define deps
